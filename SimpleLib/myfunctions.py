@@ -1,27 +1,4 @@
 import os,json
-class Interval:
-    #si x est entre min et max
-    def InInterval(min,x,max):
-        if x<min and x>max:
-            return True
-        else:
-            return False
-    
-    #si x est plus petit que nbr et si il est inclus ou non
-    def LessThan(x,nbr,inclus):
-        if x<nbr or inclus == True and x == nbr:
-            return True
-        else:
-            return False
-    
-    #si x est plus grand que nbr
-    def MoreThan(x,nbr,inclus):
-        if x>nbr or inclus == True and x == nbr:
-            return True
-        else:
-            return False
-
-
 class List:
     def enum(liste):
         for i in liste:
