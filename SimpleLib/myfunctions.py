@@ -1,7 +1,7 @@
 import os,json
-class math:
+class Interval:
     #si x est entre min et max
-    def InIntervalle(min,x,max):
+    def InInterval(min,x,max):
         if x<min and x>max:
             return True
         else:
