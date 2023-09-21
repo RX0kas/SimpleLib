@@ -22,7 +22,7 @@ class Interval:
             return False
 
 
-class list:
+class List:
     def enum(liste):
         for i in liste:
             print(i)
@@ -128,7 +128,7 @@ class Document:
         print(f.read())
         f.close()
 
-class json:
+class Json:
     def read(file,part,precision=False,partP=None):
         if precision == False:
             with open(file+".json") as f:
