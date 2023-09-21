@@ -7,4 +7,7 @@ setup(
     description='A library to facilitate the python development',
     author='ninjaoku4560',
     license='MIT',
+    install_requires=["json"], 
+    setup_requires=['pytest-runner'], 
+    tests_require=['pytest==4.4.1'], 
 )
