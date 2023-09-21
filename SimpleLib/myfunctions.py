@@ -91,7 +91,8 @@ class List:
 class Document:
     def Create(name):
         try:
-            open(name+".txt","x")
+            f = open(name+".txt","x")
+            f.close()
         except:
             print("Erreur")
     def Write(doc,string):
@@ -113,6 +114,7 @@ class Json:
                     return json.loads(part)
                 except:
                     print("This object doesn't exist!")
+                f.close()
         
         elif precision == True:
             fileObject = open(file+".json", "r")
@@ -122,8 +124,10 @@ class Json:
                 return obj_python[partP]
             except:
                 print("This Part doesn't exist!")
+            f.close()
     
     def write(file,string):
         with open(file+".json", "w") as f:
             json.dump(string, f)
+            f.close()
     
