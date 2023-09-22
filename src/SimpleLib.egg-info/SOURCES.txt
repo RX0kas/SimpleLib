@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SimpleLib.egg-info/PKG-INFO
+src/SimpleLib.egg-info/SOURCES.txt
+src/SimpleLib.egg-info/dependency_links.txt
+src/SimpleLib.egg-info/top_level.txt

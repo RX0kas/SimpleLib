@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SimpleLib_ninjagoku4560.egg-info/PKG-INFO
+src/SimpleLib_ninjagoku4560.egg-info/SOURCES.txt
+src/SimpleLib_ninjagoku4560.egg-info/dependency_links.txt
+src/SimpleLib_ninjagoku4560.egg-info/top_level.txt
