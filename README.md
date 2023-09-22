@@ -1,5 +1,5 @@
 ✅ = Test and works
-🔄 /= under test
+🔄 = under test
 ❌ = Not test
 
 # ‎class List ✅
@@ -10,7 +10,7 @@ This function displays all the values in the list that you will give.
 It just adds the alphabet to your list =)
 
 ---
-# class Document ❌
+# class Document 🔄
 This class makes it easy to interact with .txt files
 
 ### create(string)
