@@ -91,19 +91,19 @@ class List:
 
 
 class Document:
-    def Create(name):
+    def create(name):
         try:
             open(name+".txt","x")
         except:
             print("Erreur")
-    def Write(doc,string):
+    def write(doc,string):
         f = open(doc,"a")
         f.write(string)
         f.close()
         
     
-    def Read(doc):
-        f = open(doc,"r")
+    def read(doc):
+        f = open(doc + ".txt","r")
         print(f.read())
         f.close()
 
