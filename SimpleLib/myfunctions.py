@@ -1,9 +1,11 @@
 import os,json
+
+
 class List:
-    def enum(liste):
+    def Enum(liste):
         for i in liste:
             print(i)
-    def addAlphabet(list,show = False):
+    def AddAlphabet(list,show = False):
         if show == (not True):
             list.append("a")
             list.append("b")
@@ -89,19 +91,18 @@ class List:
 
 
 class Document:
-    def create(name):
+    def Create(name):
         try:
-            f = open(name+".txt","x")
-            f.close()
+            open(name+".txt","x")
         except:
             print("Erreur")
-    def write(doc,string):
+    def Write(doc,string):
         f = open(doc,"a")
-        f.Write(string)
+        f.write(string)
         f.close()
         
     
-    def read(doc):
+    def Read(doc):
         f = open(doc,"r")
         print(f.read())
         f.close()
@@ -109,12 +110,11 @@ class Document:
 class Json:
     def read(file,part,precision=False,partP=None):
         if precision == False:
-            with open(file+".json") as f:
-                try:
-                    return json.loads(part)
-                except:
-                    print("This object doesn't exist!")
-                f.close()
+            f = open(file)
+            try:
+                return json.loads(part)
+            except:
+                print("This object doesn't exist!")
         
         elif precision == True:
             fileObject = open(file+".json", "r")
@@ -124,10 +124,8 @@ class Json:
                 return obj_python[partP]
             except:
                 print("This Part doesn't exist!")
-            f.close()
     
     def write(file,string):
         with open(file+".json", "w") as f:
             json.dump(string, f)
-            f.close()
     
