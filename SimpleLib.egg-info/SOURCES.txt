@@ -1,8 +1,0 @@
-README.md
-setup.py
-SimpleLib/__init__.py
-SimpleLib/myfunctions.py
-SimpleLib.egg-info/PKG-INFO
-SimpleLib.egg-info/SOURCES.txt
-SimpleLib.egg-info/dependency_links.txt
-SimpleLib.egg-info/top_level.txt
