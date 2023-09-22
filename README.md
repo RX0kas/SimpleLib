@@ -1,4 +1,7 @@
-# ‎class List
+✅ = Test and approuvd
+❌ = Not test
+
+# ‎class List 
 It allows you to interact with lists.
 ### enum(list)
 This function displays all the values in the list that you will give.
