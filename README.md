@@ -1,4 +1,4 @@
-## ‎class List
+# ‎class List
 It allows you to interact with lists.
 ### enum(list)
 This function displays all the values in the list that you will give.
@@ -6,7 +6,7 @@ This function displays all the values in the list that you will give.
 It just adds the alphabet to your list =)
 
 ---
-## class Document
+# class Document
 This class makes it easy to interact with .txt files
 
 ### create(string)
@@ -19,6 +19,6 @@ write a string into a txt file
 print the Content of a file
 
 ---
-## class Json
+# class Json
 
 
